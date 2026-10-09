@@ -1,0 +1,12 @@
+{
+  "name": "word-coach",
+  "version": "1.0.0",
+  "description": "A gentle writing companion that coaches the tone of your words using Amazon Comprehend.",
+  "bin": { "word-coach": "index.js" },
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "@aws-sdk/client-comprehend": "^3.600.0",
+    "@aws-sdk/credential-providers": "^3.600.0"
+  },
+  "license": "MIT"
+}
